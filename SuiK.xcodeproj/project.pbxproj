@@ -16,6 +16,7 @@
 		29F5F26B24F160F700E5F189 /* Later in Frameworks */ = {isa = PBXBuildFile; productRef = 29F5F26A24F160F700E5F189 /* Later */; };
 		29F5F27324F177DA00E5F189 /* SUIKContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F5F27224F177DA00E5F189 /* SUIKContentView.swift */; };
 		29F5F27624F1796C00E5F189 /* SwiftUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 29F5F27524F1796C00E5F189 /* SwiftUIKit */; };
+		29F5F27824F17B7C00E5F189 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F5F27724F17B7C00E5F189 /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		29F5F25E24F15F5F00E5F189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29F5F26024F15F5F00E5F189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29F5F27224F177DA00E5F189 /* SUIKContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUIKContentView.swift; sourceTree = "<group>"; };
+		29F5F27724F17B7C00E5F189 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		29F5F25124F15F5E00E5F189 /* SuiK */ = {
 			isa = PBXGroup;
 			children = (
+				29F5F27924F17B8B00E5F189 /* Helpers */,
 				29F5F27024F1777F00E5F189 /* SwiftUI */,
 				29F5F26F24F1777200E5F189 /* SwiftUIKit */,
 				29F5F25224F15F5E00E5F189 /* AppDelegate.swift */,
@@ -96,6 +99,14 @@
 				29F5F25624F15F5E00E5F189 /* ContentView.swift */,
 			);
 			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		29F5F27924F17B8B00E5F189 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				29F5F27724F17B7C00E5F189 /* SwiftUIView.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +192,7 @@
 				29F5F25524F15F5E00E5F189 /* SceneDelegate.swift in Sources */,
 				29F5F27324F177DA00E5F189 /* SUIKContentView.swift in Sources */,
 				29F5F25724F15F5E00E5F189 /* ContentView.swift in Sources */,
+				29F5F27824F17B7C00E5F189 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

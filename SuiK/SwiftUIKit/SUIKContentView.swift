@@ -1,5 +1,6 @@
 import UIKit
 import SwiftUIKit
+import SwiftUI
 
 class SUIKContentView: UIView {
 
@@ -15,5 +16,13 @@ class SUIKContentView: UIView {
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+}
+
+struct SUIKContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        SwiftUIView {
+            SUIKContentView()
+        }
     }
 }
